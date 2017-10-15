@@ -31,6 +31,7 @@ export default {
 </script>
 
 <style{{#sass}} lang="scss"{{/sass}}>
+{{#sass}} @import './scss/main.scss'; {{/sass}}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
